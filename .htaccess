@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Kamile_Vaiciulaityte/DI/
+RewriteRule ^index\.php＄ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /Kamile_Vaiciulaityte/DI/index.php [L]

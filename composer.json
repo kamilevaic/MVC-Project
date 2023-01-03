@@ -1,0 +1,15 @@
+{
+    "name": "MyProject",
+    "autoload": {
+        "psr-4": {
+            "Codeacademy\\Di\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kamilevaic",
+            "email": "kamile.vaic@gmail.com"
+        }
+    ],
+    "require": {}
+}
